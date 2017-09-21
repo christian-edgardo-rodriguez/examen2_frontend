@@ -2,7 +2,7 @@
   <div id="app">
     <div v-show="!scope">
         <div v-show="!signIn">
-            <div style="background-image:url('static/images/soccer.gif'); height:662px; opacity: 0.9;">
+            <div style="background-image:url('static/images/mountains1.png'); height:662px; opacity: 0.9;">
                 <div class="mn-content valign-wrapper">
                 <main class="mn-inner container" >
                     <div class="valign">
@@ -41,7 +41,7 @@
         </div>
     </div>
         <div v-show="signIn">
-            <div style="background-image:url('static/images/soccer-iloveimg-resized.gif'); height:690px; opacity: 0.9;">
+            <div style="background-image:url('static/images/mountains2.jpg'); height:690px; opacity: 0.9;">
                 <div class="mn-content valign-wrapper">
                 <main class="mn-inner container" >
                     <div class="valign">
