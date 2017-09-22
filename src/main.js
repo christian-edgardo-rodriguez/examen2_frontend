@@ -4,26 +4,26 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
-import Add from './components/Add.vue'
-import Update from './components/Update.vue'
+import Amigos from './components/Amigos.vue'
 import Delete from './components/Delete.vue'
+import Posible from './components/Posible.vue'
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
 Vue.use(VueResource)
 const router = new VueRouter({
     routes:[{
-        path:'/add',
-        name: 'add',
-        component: Add
+        path:'/Amigos',
+        name: 'Amigos',
+        component: Amigos
     },{
-        path:'/update',
-        name: 'update',
-        component: Update
-    },{
-        path:'/delete',
-        name: 'delete',
+        path:'/Delete',
+        name: 'Delete',
         component: Delete
+    },{
+        path:'/Posible',
+        name: 'Posible',
+        component: Posible
     }]
 });
 /* eslint-disable no-new */
